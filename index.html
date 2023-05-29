@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .joke.jokecontent{
+            padding: 20px;
+            font-size: 20px;
+        }
+        #button{
+        height: 20px;
+        width: 50px;
+        border: 1px solid black; 
+        cursor: pointer; 
+        color: rgb(14, 14, 15);
+        background-color: rgb(113, 215, 236);
+        border-radius: 10px;
+    }
+    h1{
+        color: aliceblue;
+        text-shadow: 0px 2px 3px black,0px 2px 4px gray;
+    }
+    </style>
+</head>
+<body style="background-image: linear-gradient(yellow,pink,skyblue);">
+    <center>
+    <h1 >Wanna hear something funny?</h1>
+    <button id="button">Yes!</button><br><br>
+    <div id="jokecontent"></div><br>
+    <div id="joke"></div>
+    <img src="WhatsApp_Image_2023-05-29_at_12.12.34_PM-removebg-preview.png" height="200px"width="250px" id="minion" alt="image">
+    <p>Code your own joke generator 🤍</p>
+    </center>
+    <script src="joke.js"></script>
+    <script src=" https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+</html>
